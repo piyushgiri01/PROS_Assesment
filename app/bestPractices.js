@@ -26,12 +26,12 @@ define(function() {
     },
 
     parseInt : function(num) {
-      return parseInt(num);
+      return parseInt(num, 2);
     },
 
     identity : function(val1, val2) {
-		var equality  = ((val1 === val2) ? true:false)
-		return equality;
+        var equality  = ((val1 === val2) ? true:false)
+        return equality;
 
     }
   };
